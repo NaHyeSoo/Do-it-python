@@ -1,0 +1,33 @@
+ab_1(1,2)   # print 3
+
+ab_2(1,2)   # not print 
+
+a1 = ab_1(1,2)
+a2 = ab_2(1,2)
+
+print(a1)   # None
+print(a2)   # 3
+
+
+
+def ab_1(a:int, b:int):
+    print(a + b)
+
+def ab_2(a:int,b:int):
+    return a + b
+
+# 1
+a = 1
+b = 2
+print(a+b)
+
+# 2
+a = 1
+b = 2
+_return = 3
+
+answer = ab_1(1,2) + 3
+answer = print(3) + 3 
+
+answer = ab_2(1,2) + 3
+answer = _return + 3
